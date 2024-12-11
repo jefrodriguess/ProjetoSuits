@@ -13,56 +13,63 @@
     padding: 0;  /* sem borda*/
     margin: 0;  /* sem margem */
     box-sizing: border-box; 
-    }
+}
 
-    a {
+a {
     text-decoration: none; /* link sem sublinhado */
-    }
-    img {
-    width: 100%; /* tamanho total da imagem */
-    }
-    #header{
-        min-height: 90vh;
-        background-image: url("../images/img/main_banner4.png");
-        background-size: cover;
-        background-position: center;
-        color:var(--primary-text-color);
-        margin-bottom: 2rem;
-    }
-    #inner-header{
-        /* padrão linha */
-        display: flex;
-        /* alinhamento horizontal, eixo x */
-        justify-content:space-between;
-        /* alinhamento vertical, eixo y */
-        align-items: center;
-    }
-    #brand{
-        /* cor da caixa */
-        background-color: var(--main-color);
-        /* preenchimento da caixa*/
-        padding: 1rem;
-    }
-    #navbar{
-        /* padrão linha */
-        display: flex;
-        /* espaçamento*/
-        gap: 2rem;
-        /* converte o texto em maiúsculo */
-        text-transform: uppercase;
-        margin-right: 2rem;
-    }
-    #navbar a {
-        /* variavel*/
-        color: var(--primary-text-color);
-        font-weight: bold;
-        /* espaço entre eles*/
-        padding: 1rem;
-    }
+}
+img {
+    width: 100%; /* tamanho total da imagem */    
+ }
+#header{
+    min-height: 90vh;
+    background-image: url("../images/img/main_banner4.png");
+    background-size: cover;
+    background-position: center;
+    color:var(--primary-text-color);
+    margin-bottom: 2rem;   
+}
+#inner-header{
+    /* padrão linha */
+    display: flex;
+    /* alinhamento horizontal, eixo x */
+    justify-content:space-between;
+    /* alinhamento vertical, eixo y */
+    align-items: center;
+}
+#brand{
+    /* cor da caixa */
+    background-color: var(--main-color);
+    /* preenchimento da caixa*/
+    padding: 1rem;   
+}
+#navbar{
+    /* padrão linha */
+    display: flex;
+    /* espaçamento*/
+    gap: 2rem;
+    /* converte o texto em maiúsculo */
+    text-transform: uppercase;
+    margin-right: 2rem;
+}
+#navbar a {
+    /* variavel*/
+    color: var(--primary-text-color);
+    font-weight: bold;
+    /* espaço entre eles*/
+    padding: 1rem;
+}
 
-    h1 {
-        color: red;
-    }
+h1 {
+    color: red;
+}
+
+.square{
+    display:block;
+    width: 150px;
+    height: 150px;
+    background-color: var(--main-color);
+}
 
 
 
