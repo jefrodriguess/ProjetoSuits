@@ -64,14 +64,56 @@ h1 {
     color: red;
 }
 
+.banner.active{
+    opacity: 1;  /*banner ativo é mostrado*/
+}
+
+.banner{
+    max-width: 45%;
+    opacity: 0;
+    padding: 4rem;
+    position: absolute;
+}
+
+.banner h2{
+    font-size: 4rem;
+    margin-bottom: 1.2rem;
+    position: relative; /*posição fixa dentro da estrutura */
+    z-index: 2; /*posição eixo Z (profundidade) */
+}
+
+.banner p{
+    font-size: 1.5rem;
+}
+
 .square{
     display:block;
     width: 150px;
     height: 150px;
     background-color: var(--main-color);
+    position: absolute; /*para definir a posição */
+    left: 20px;
+    top: 40px;
+    z-index: 1; /*posição eixo Z (profundidade) */
 }
 
+.dots{
+    display:flex;
+    gap: 2rem;
+    position: absolute;/*posição fixa dentro da caixa <head>*/
+    bottom: 9rem;
+    left: 3rem;
+}
 
+.dot{
+    width: 20px;
+    height: 20px;
+    background-color: var(--secondary-color);
+}
+
+.dot.active{
+    background-color: var(--secondary-bg-color);
+}
 
    
 
