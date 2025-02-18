@@ -152,3 +152,41 @@ h1 {
     margin-bottom: 1rem;
     text-transform: uppercase;
 }
+
+#about{
+    display: flex;
+    flex-wrap: wrap; /* responsividade */
+    align-items: center;
+    gap: 2rem;
+}
+
+#about-text{
+    background-image: url(../images/img/pattern.png);
+    background-size: cover; /*preenher*/
+    background-position: center; 
+    color: var(--primary-text-color);
+    display: flex;
+    flex: 1 1 0; 
+    /* flex: grow shrink basis */
+    /* grow - define quanto o elemento cresce em relação aos outros */
+    /* shrink - define quanto ele encolhe quando não há espaço  */
+    /* basis - define o tamanho inicial do elemento antes de aplicar o crescimento e encolhimento */
+    flex-direction: column;   
+    justify-content: center;
+    gap: 2rem;
+    padding: 4rem 3rem;
+}
+
+#about-text .section-subtitle, 
+#about-text .section-title{
+    color: var(--primary-text-color);
+}
+
+#about-text i {
+    background-color: transparent;
+}
+
+.about-description {
+    display: flex;
+
+}
